@@ -13,7 +13,7 @@ const Clock = (props: SetTimeZone) =>{
             newDateState(getTimeZone)
         }, 1000)
     }, [])
-    
+     
     return <p>{props.tmz} : {getTimeZone}</p>
 }
 
